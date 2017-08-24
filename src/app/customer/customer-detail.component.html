@@ -1,0 +1,31 @@
+<div class="slds-grid slds-wrap slds-grid_pull-padded">
+    <div class="slds-p-horizontal_small slds-size_1-of-1">
+        <div class="slds-text-heading_large">Customer Details for {{selectedCustomer.firstName}} {{selectedCustomer.lastName}}</div>
+    </div>
+    <div class="slds-p-horizontal_small slds-size_1-of-1">
+        <div class="slds-form-element">
+            <label class="slds-form-element__label">First Name</label>
+            <div class="slds-form-element__control">
+                <input type="text" id="input-first-name" class="slds-input" [(ngModel)]="selectedCustomer.firstName"/>
+            </div>
+        </div>
+        <div class="slds-form-element">
+            <label class="slds-form-element__label">Last Name</label>
+            <div class="slds-form-element__control">
+                <input type="text" id="input-last-name" class="slds-input" [(ngModel)]="selectedCustomer.lastName"/>
+            </div>
+        </div>
+        <div class="slds-form-element">
+            <label class="slds-form-element__label">Email</label>
+            <div class="slds-form-element__control">
+                <input type="text" id="input-email" class="slds-input" [(ngModel)]="selectedCustomer.email"/>
+            </div>
+        </div>
+        <div class="slds-form-element">
+            <label class="slds-form-element__label">Phone</label>
+            <div class="slds-form-element__control">
+                <input type="text" id="input-phone" class="slds-input" [(ngModel)]="selectedCustomer.phone"/>
+            </div>
+        </div>
+    </div>
+</div>

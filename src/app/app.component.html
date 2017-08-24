@@ -1,20 +1,45 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNTAgMjUwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNTAgMjUwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojREQwMDMxO30NCgkuc3Qxe2ZpbGw6I0MzMDAyRjt9DQoJLnN0MntmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxnPg0KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMTI1LDMwIDEyNSwzMCAxMjUsMzAgMzEuOSw2My4yIDQ2LjEsMTg2LjMgMTI1LDIzMCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAJIi8+DQoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIxMjUsMzAgMTI1LDUyLjIgMTI1LDUyLjEgMTI1LDE1My40IDEyNSwxNTMuNCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAxMjUsMzAgCSIvPg0KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xMjUsNTIuMUw2Ni44LDE4Mi42aDBoMjEuN2gwbDExLjctMjkuMmg0OS40bDExLjcsMjkuMmgwaDIxLjdoMEwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMQ0KCQlMMTI1LDUyLjF6IE0xNDIsMTM1LjRIMTA4bDE3LTQwLjlMMTQyLDEzNS40eiIvPg0KPC9nPg0KPC9zdmc+DQo=">
+<header class="slds-global-header_container">
+</header>
+<div class="slds-context-bar">
+    <div class="slds-context-bar__primary slds-context-bar__item_divider-right">
+        <div class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-no-hover slds-context-bar__item_divider-right">
+            <div class="slds-context-bar__icon-action slds-context-bar__item_divider-right">
+                <button class="slds-button slds-icon-waffle_container slds-context-bar__button" title="Description of the icon when needed">
+                    <span class="slds-icon-waffle">
+                    <span class="slds-r1"></span>
+                    <span class="slds-r2"></span>
+                    <span class="slds-r3"></span>
+                    <span class="slds-r4"></span>
+                    <span class="slds-r5"></span>
+                    <span class="slds-r6"></span>
+                    <span class="slds-r7"></span>
+                    <span class="slds-r8"></span>
+                    <span class="slds-r9"></span>
+                    </span>
+                    <span class="slds-assistive-text">Open App Launcher</span>
+                </button>
+            </div>
+            <span class="slds-context-bar__label-action slds-context-bar__app-name">
+                <span class="slds-truncate" title="Saasoon">Saasoon</span>
+            </span>
+        </div> 
+    </div>
+    <nav class="slds-context-bar__secondary" role="navigation">
+        <ul class="slds-grid">
+            <li class="slds-context-bar__item slds-context-bar__item_divider-right">
+                <a routerLink="/customers" class="slds-context-bar__label-action" title="Customers">
+                    <span class="slds-truncate" title="Customers">Customers</span>
+                </a>
+            </li>
+            <li class="slds-context-bar__item slds-context-bar__item_divider-right">
+                    <a class="slds-context-bar__label-action" title="Services">
+                        <span class="slds-truncate" title="Services">Services</span>
+                    </a>
+                </li>
+        </ul>
+    </nav>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://blog.angular.io//">Angular blog</a></h2>
-  </li>
-</ul>
+
+
+<router-outlet></router-outlet>
 
